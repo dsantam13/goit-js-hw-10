@@ -8,20 +8,8 @@ fetchBreeds().then(data => {
         breedSelect.innerHTML = selectOptions
     })  
     .catch(error => console.log(error));
-
-    /*
-    .then(data => {
-        const breedSelect = document.querySelector('.breed-select');
-        const selectOptions = data
-            .map((data) =>`<option value="${data.id}">${data.name}</option>`)
-            .join("");
-        breedSelect.innerHTML = selectOptions
-    })*/
     
-
 //const breedSelect = document.querySelector('.breed-select');
 //const loaderMessage = document.querySelector('.loader');
 //const errorMessage = document.querySelector('.error');
 //const catInfo = document.querySelector('.cat-info');
-
-//breedSelect.innerHTML = selectOptions;
