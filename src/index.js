@@ -5,7 +5,6 @@ const catInfo = document.querySelector('.cat-info');
 const loaderMessage = document.querySelector('.loader');
 const errorMessage = document.querySelector('.error');
 
-//breedSelect.setAttribute("id", "selectElement");
 loaderMessage.style.display = "block";
 breedSelect.style.display = "none";
 errorMessage.style.display = "none";
@@ -54,4 +53,4 @@ breedSelect.addEventListener("change", (e) => {
             catInfo.style.display = "block";
             loaderMessage.style.display = "none";
     });
-    })
+})
